@@ -1,6 +1,6 @@
 module.exports = {
     name:  'kick',
-    description: "Rias loves Bhagi",
+    description: "This is stupidity",
     execute(message,args){
 
         let role=message.guild.roles.cache.find(r =>r.name==="DADDY");
