@@ -19,7 +19,6 @@ for(const file of commandFiles){
 client.once('ready',() => {
     console.log('I love Bhagirath');
 });
-
 client.on('message', message =>{
     if(!message.content.startsWith(prefix) || message.author.bot) return;
 
